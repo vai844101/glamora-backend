@@ -6,7 +6,7 @@ require("dotenv").config();
 const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 
-const port = process.env.PORT || 5000;
+const port =  5000;
 
 //middleware setup
 app.use(express.json({ limit: "25mb" }));
