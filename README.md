@@ -5,10 +5,10 @@ This repository contains the backend for the Glamora application, providing robu
 README.md – Documentation file, likely includes instructions for setup, usage, and API details.
 index.js – The main entry point of the application, responsible for initializing the server and middleware.
 package.json – Contains metadata, dependencies, and scripts for the project.
-src/ (Source Directory)
-Houses all the backend logic, divided into different modules for maintainability.
+src/ (Source Directory)-Houses all the backend logic, divided into different modules for maintainability.
 
-1. Middleware (src/middleware/)
+1. Middleware (src/middleware/).
+
 This directory contains middleware functions for handling authentication and authorization.
 
 generateToken.js – Generates authentication tokens (likely JWT) for user sessions.
@@ -16,14 +16,15 @@ verifyAdmin.js – Middleware to check if a user has admin privileges.
 verifyToken.js – Middleware to verify JWT tokens before processing requests.
 
 2. Orders (src/orders/)
-Handles everything related to orders:
+
+Handles everything related to orders.
 
 orders.model.js – Defines the schema and model for orders.
 orders.route.js – Contains routes to handle order-related operations (e.g., create, update, delete orders).
 
 3. Products (src/products/)
-Manages product-related operations:
 
+Manages product-related operations.
 products.model.js – Defines the schema and model for products.
 products.route.js – Routes for product-related API endpoints (e.g., fetching product lists, adding products).
 
@@ -39,7 +40,7 @@ Handles statistics and analytics:
 stats.route.js – Likely provides endpoints to fetch sales, product performance, or user statistics.
 
 6. Users (src/users/)
-Manages user-related functionality:
+Manages user-related functionality.
 
 user.model.js – Defines the schema/model for users.
 user.route.js – Routes for user authentication, profile management, etc.
